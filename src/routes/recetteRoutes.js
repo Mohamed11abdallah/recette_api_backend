@@ -6,7 +6,7 @@ import {
   updateRecetteController,
   deleteRecetteController,
   searchRecettesController, // Nouvelle méthode ajoutée ici
-} from '../controllers/recetteController.js';
+} from '../controllers/RecetteController.js';
 
 const router = express.Router();
 

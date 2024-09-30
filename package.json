@@ -4,10 +4,10 @@
   "main": "",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jasmine",
     "start": "nodemon src/server.js",
-    "lint": "eslint '**/*.js'",
-    "format": "prettier --write '**/*.js'"
+    "lint": "eslint **/*.js --fix",
+    "format": "prettier --write **/*.js"
   },
   "keywords": [],
   "author": "",
